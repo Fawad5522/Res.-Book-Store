@@ -23,11 +23,15 @@ nav {
     justify-content: space-evenly;
     position: sticky;
     top: 0;
+    background-color: #9f9d9d;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 nav a {
-    color: #0000ff ;
+    color: #000000 ;
     text-decoration: none;
+    font-weight: bold ;
 }
  
       /* Home */
@@ -44,8 +48,8 @@ nav a {
 
 .home img {
     margin-left: 50px;
-    width: 300px;
     margin-top: 50px;
+    width: 300px;
     border-radius: 60%;
 }
 
@@ -70,4 +74,152 @@ section {
 
 section p{
     padding-top: 20px;
+}
+
+.bestselling {
+    padding-top: 30px;
+}
+
+.bestselling h3 {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.group-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.books {
+    height: 310px;
+    border: 2px solid black;
+    background-color: #fffafa;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.books img {
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    filter: opacity(0.9);
+}
+.group-cards h6 {
+    position: relative;
+    top: -120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.group-cards button {
+    background: #373b3e39;
+    color: rgb(255, 255,255);
+    width: 10vw;
+    height: 7vh;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -120px;
+    border: none;
+}
+
+  /* books-collection */
+  .card-group{
+     display: flex;
+     margin-top: -20px;
+     margin-bottom: 30px;
+  }
+
+ #Books{
+    position: relative;
+    margin: 50px 0 30px 20px;
+    font-size: x-large;
+ }
+
+ .card-group .card{
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    border: 1px solid #436e92;
+    background-color: #e5edf3;
+    margin: 10px;
+ }
+
+ .card img{
+    width: 323px;
+    height: 350px;
+ }
+
+ .card .car-body{
+    background-color: #373b3e9e;
+ }
+
+ .card .title {
+    background-color: #373b3e9e;
+    color: white;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+ }
+
+ .card button{
+    background-color: #373b3e9e;
+    color: rgb(255, 255,255);
+    height: 7vh;
+    width: 10vw;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding-top: 10px;
+    margin-bottom: 10px;
+ }
+   /* Mobile  */
+
+@media(max-width : 420px) {
+    figure {
+        margin-top: -15px;
+    }
+    figure img {
+        width : 150px;
+    }
+    .home {
+        margin-top: 10px;
+    }
+    .home div {
+        padding: 0px;
+        margin: 0px;
+        margin-left: 6px;
+    }
+    .home img{
+    width: 200px;
+    margin-left: 13px;
+    margin-top: 10px;
+    border-radius: 50%;
+    }
+    .home h2 {
+        font-size: 20px;
+    }
+    .home input {
+        width: 100px;
+        height: 20px;
+        border-radius: 5px;
+        margin-top: 7px;
+    }
+    section {
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    section h3 {
+        font-size: medium;
+    }
+    section p {
+        font-size: smaller;
+        padding-top: 10px;
+    }
+    
 }
